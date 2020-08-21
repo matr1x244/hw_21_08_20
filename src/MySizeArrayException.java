@@ -1,2 +1,5 @@
-public class MySizeArrayException {
+class MyArraySizeException extends RuntimeException {
+    public MyArraySizeException() {
+        super("размер массива неправильный!");
+    }
 }
